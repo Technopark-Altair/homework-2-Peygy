@@ -1,0 +1,21 @@
+div
+{
+    display: grid;
+    margin: 10% 45% 0 45%;
+    grid-template-rows: 6;
+}
+select
+{
+    display: block;
+}
+input[type^="submit"]
+{
+    display: block;
+}
+@media screen and (min-widht: 640px)
+{
+    div
+    {
+        margin: 10% 0 0 0;
+    }
+}
